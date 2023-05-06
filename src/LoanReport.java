@@ -24,6 +24,6 @@ public class LoanReport {
         System.out.println();
         System.out.println("Loan");
         System.out.println("--------");
-        System.out.println("Monthly Payments: " + mortgageFormatted);
+        System.out.println("Monthly Payments: " + paymentFormatted);
     }
 }
