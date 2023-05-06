@@ -20,7 +20,7 @@ public class LoanReport {
 
     public void printPayment() {
         double payment = calculator.calculateLoan();
-        String mortgageFormatted = currency.format(payment);
+        String paymentFormatted = currency.format(payment);
         System.out.println();
         System.out.println("Loan");
         System.out.println("--------");
